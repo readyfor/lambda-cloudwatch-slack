@@ -1,13 +1,13 @@
 module.exports = {
 
-  kmsEncryptedHookUrl: "<kmsEncryptedHookUrl>", // encrypted slack webhook url
-  unencryptedHookUrl: "<unencryptedHookUrl>", // unencrypted slack webhook url
-  slackChannel: "#general",  // slack channel to send a message to
+  kmsEncryptedHookUrl: "AQECAHhwcedt+Ypm3XTRLHX50Ff/O//tL5grxnR+u6QdfxLtkwAAAKcwgaQGCSqGSIb3DQEHBqCBljCBkwIBADCBjQYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAyA1qJd1LBXPC7PmaMCARCAYJgzv/PlduW6t4ZTD4Xlz1L+9KVIk/A/Ynd8VDFdyAovhnW2g9V+JU/kQxECZ+sJkN28iws3o9FEt6nEf99R89WN5I85+PfugUFzN+yEwYgGNgzAPG8vjtINRtJg57NKxA==", // encrypted slack webhook url
+  // unencryptedHookUrl: "<unencryptedHookUrl>", // unencrypted slack webhook url
+  slackChannel: "#cloudwatch-alarm",  // slack channel to send a message to
   slackUsername: "AWS SNS via Lamda", // slack username to user for messages
-  region: "us-east-1", // default region for links in services that dont include region in sns
+  region: "ap-northeast-1", // default region for links in services that dont include region in sns
   icon_emoji: ":robot_face:", // slack emoji icon to use for messages
-  orgIcon: "", // url to icon for your organization for display in the footer of messages
-  orgName: "", // name of your organization for display in the footer of messages
+  orgIcon: "https://readyfor.jp/favicon.png", // url to icon for your organization for display in the footer of messages
+  orgName: "READYFOR", // name of your organization for display in the footer of messages
   services: {
     elasticbeanstalk: {
       match_text: "ElasticBeanstalkNotifications" // text in the sns message or topicname to match on to process this service type

@@ -4,7 +4,6 @@ module.exports = {
   // unencryptedHookUrl: "<unencryptedHookUrl>", // unencrypted slack webhook url
   slackChannel: "#cloudwatch-alarm",  // slack channel to send a message to
   slackUsername: "AWS SNS via Lamda", // slack username to user for messages
-  region: "ap-northeast-1", // default region for links in services that dont include region in sns
   icon_emoji: ":robot_face:", // slack emoji icon to use for messages
   orgIcon: "https://readyfor.jp/favicon.png", // url to icon for your organization for display in the footer of messages
   orgName: "READYFOR", // name of your organization for display in the footer of messages

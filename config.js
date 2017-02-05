@@ -5,8 +5,8 @@ module.exports = {
   slackChannel: "#cloudwatch-alarm",  // slack channel to send a message to
   slackUsername: "AWS SNS via Lamda", // slack username to user for messages
   icon_emoji: ":robot_face:", // slack emoji icon to use for messages
-  orgIcon: "https://readyfor.jp/favicon.png", // url to icon for your organization for display in the footer of messages
-  orgName: "READYFOR", // name of your organization for display in the footer of messages
+  orgIcon: "https://readyfor.jp/assets/favicon/favicon-ace201e716de8bc639115e7c00db7b2e3f2681b56c3c391601a6173d4e4cd752.png", // url to icon for your organization for display in the footer of messages
+  orgName: "Readyfor", // name of your organization for display in the footer of messages
   services: {
     elasticbeanstalk: {
       match_text: "ElasticBeanstalkNotifications" // text in the sns message or topicname to match on to process this service type
